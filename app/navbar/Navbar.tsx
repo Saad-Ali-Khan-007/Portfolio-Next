@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Navbar = () => {
   return (
-    <div className="bg-[#222222] flex justify-around items-center sticky top-0">
+    <div className="bg-[#222222] flex justify-around items-center">
       <div>
         <Image
           src="/signature.png"

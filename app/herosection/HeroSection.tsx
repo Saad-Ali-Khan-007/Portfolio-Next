@@ -2,7 +2,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <div className="flex flex-col justify-between items-center pt-16 space-y-10">
-      <div className="flex flex-col space-y-10 items-center max-w-[80%] m-auto">
+      <div className="flex flex-col space-y-10 items-center max-w-[90%] m-auto">
         <Image
           src="/profile.png"
           alt="profile pic"
@@ -17,7 +17,7 @@ const HeroSection = () => {
           </span>
           "
         </h1>
-        <p className="text-center text-gray-300 max-w-[80%] m-auto">
+        <p className="text-center text-gray-300 max-w-[90%] m-auto">
           I bring a passion for crafting innovative solutions across the entire
           development stack. With a solid foundation in both front-end and
           back-end technologies, I have honed my skills in building dynamic web

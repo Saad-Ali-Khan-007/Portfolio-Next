@@ -8,13 +8,13 @@ import { InView } from "react-intersection-observer";
 const Experience = () => {
   return (
     <div className="p-10">
-      <h1 className="text-center text-gray-300 text-xl pt-6 pb-6">
+      <h1 className="text-center text-gray-300 text-4xl pt-6 pb-6">
         Experience With
       </h1>
       <InView>
         {({ inView, ref }) => {
           return (
-            <div className="flex flex-wrap gap-[3rem] ">
+            <div className="flex flex-wrap gap-[3rem] items-center justify-center">
               <div ref={ref} className="mt-5 h-[200px] w-[200px] text-center">
                 <CircularProgressbarWithChildren
                   value={inView ? 98 : 0}

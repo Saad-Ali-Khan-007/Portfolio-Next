@@ -1,12 +1,12 @@
 import Image from "next/image";
 const Expertise = () => {
   return (
-    <div>
-      <h1 className="text-center text-gray-300 text-4xl pt-10 pb-10">
+    <div id="expertise">
+      <h1 className="text-center text-gray-300 font-bold text-4xl pt-10 pb-10">
         My Expertise
       </h1>
-      <div className="flex items-center gap-10 w-full">
-        <div className="flex flex-col justify-center space-y-4 w-[50%] bg-[#222222] p-4 rounded-lg">
+      <div className="flex items-center gap-10 w-full justify-center flex-wrap md:flex-nowrap">
+        <div className="flex flex-col justify-center space-y-4 md:w-[50%] bg-[#222222] p-4 rounded-lg">
           <Image src="/frontend.png" alt="frontend" width={100} height={100} />
           <h1 className="text-3xl font-bold">Frontend Development</h1>
           <p>
@@ -16,7 +16,7 @@ const Expertise = () => {
             staying abreast of the latest technologies.
           </p>
         </div>
-        <div className="flex flex-col justify-center space-y-4 w-[50%] bg-[#222222] p-4 rounded-lg">
+        <div className="flex flex-col justify-center space-y-4 md:w-[50%] bg-[#222222] p-4 rounded-lg">
           <Image src="/backend.png" alt="backend" width={100} height={100} />
           <h1 className="text-3xl font-bold">Backend Development</h1>
           <p>

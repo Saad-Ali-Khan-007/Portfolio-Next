@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="bg-[#222222] flex justify-around items-center">
@@ -13,10 +14,21 @@ const Navbar = () => {
       </div>
       <div>
         <ul className="flex space-x-8">
-          <li className="text-white">Home</li>
-          <li className="text-white">Project</li>
-          <li className="text-white">Experience</li>
-          <li className="text-white">Contact</li>
+          <Link href="#home" className="text-white">
+            Home
+          </Link>
+          <Link href="#expertise" className="text-white">
+            Expertise
+          </Link>
+          <Link href="#projects" className="text-white">
+            Project
+          </Link>
+          <Link href="#experience" className="text-white">
+            Experience
+          </Link>
+          <Link href="#" className="text-white">
+            Contact
+          </Link>
         </ul>
       </div>
     </div>

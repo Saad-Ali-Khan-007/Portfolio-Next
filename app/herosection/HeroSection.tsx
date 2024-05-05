@@ -1,7 +1,10 @@
 import Image from "next/image";
 const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-between items-center pt-16 space-y-10">
+    <div
+      className="flex flex-col justify-between items-center pt-16 space-y-10"
+      id="home"
+    >
       <div className="flex flex-col space-y-10 items-center max-w-[90%] m-auto">
         <Image
           src="/profile.png"

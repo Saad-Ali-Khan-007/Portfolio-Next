@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const HeroSection = () => {
   return (
     <div
@@ -7,7 +8,7 @@ const HeroSection = () => {
     >
       <div className="flex flex-col space-y-10 items-center max-w-[90%] m-auto">
         <Image
-          src="/profile.png"
+          src="/developer.png"
           alt="profile pic"
           width={200}
           height={200}
@@ -32,9 +33,12 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="flex space-x-4">
-        <button className="bg-white text-black rounded-[4rem] px-5 py-3 font-bold">
+        <Link
+          href={"mailto:saadalikhan041@gmail.com"}
+          className="bg-white text-black rounded-[4rem] px-5 py-3 font-bold"
+        >
           Get In Touch
-        </button>
+        </Link>
         <button className="bg-black border-2 border-white rounded-[4rem] px-5 py-3 font-bold">
           Download CV
         </button>

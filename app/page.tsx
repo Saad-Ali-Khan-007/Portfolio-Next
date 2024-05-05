@@ -2,6 +2,7 @@ import Experience from "./experience/Experience";
 import HeroSection from "./herosection/HeroSection";
 import Expertise from "./expertise/Expertise";
 import Projects from "./projects/Projects";
+import Contact from "./contact/Contact";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Expertise />
       <Projects />
       <Experience />
+      <Contact />
     </main>
   );
 }
